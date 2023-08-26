@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Property Website</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <div class="logo-container">
+                <img class="logo" src="https://static.99acres.com/universalhp/img/nnacres_white_v2.png">
+                <div class="nav-item">
+                    All India
+                    <div class="dropdown">
+                        <a href="#">Submenu 1</a>
+                        <a href="#">Submenu 2</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="nav-item">
+                For Buyers
+                <div class="dropdown">
+                    <a href="#">Submenu 1</a>
+                    <a href="#">Submenu 2</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                For Tenants
+                <div class="dropdown">
+                    <a href="#">Submenu 1</a>
+                    <a href="#">Submenu 2</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                For Owners
+                <div class="dropdown">
+                    <a href="#">Submenu 1</a>
+                    <a href="#">Submenu 2</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                For Dealers/Builders
+                <div class="dropdown">
+                    <a href="#">Submenu 1</a>
+                    <a href="#">Submenu 2</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                Insights
+                <div class="dropdown">
+                    <a href="#">Submenu 1</a>
+                    <a href="#">Submenu 2</a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="search-card-container">
+        <div class="search-card">
+            <div class="tabs">
+                <button class="tab-item active" onclick="selectTab('buy')">Buy</button>
+                <button class="tab-item" onclick="selectTab('rent')">Rent</button>
+                <button class="tab-item" onclick="selectTab('pg/co-living')">PG/Co-living</button>
+                <button class="tab-item" onclick="selectTab('commercial')">Commercial</button>
+                <button class="tab-item" onclick="selectTab('coworking')">Coworking</button>
+                <button class="tab-item" onclick="selectTab('plots/land')">Plots/Land</button>
+                <button class="tab-item" onclick="selectTab('projects')">Projects</button>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search properties...">
+                <button>Search</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero">
+
+        <div class="hero-caption">
+            <p>GET STARTED WITH EXPLORING REAL ESTATE OPTIONS</p>
+        </div>
+
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="https://static.99acres.com/universalhp/img/d_hp_buy.webp" alt="Image Description 1">
+                <p class="gallery-caption">Buying a home</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://static.99acres.com/universalhp/img/d_hp_rent.webp" alt="Image Description 2">
+                <p class="gallery-caption">Renting a home</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://www.99acres.com/universalapp/img/d_hp_invest_new.png" alt="Image Description 2">
+                <p class="gallery-caption">Invest in Real Estate</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://static.99acres.com/universalhp/img/d_hp_ppf.webp" alt="Image Description 2">
+                <p class="gallery-caption">Sell/Rent you property</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://static.99acres.com/universalhp/img/d_hp_plot_land.webp" alt="Image Description 2">
+                <p class="gallery-caption">Plots/Land</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://static.99acres.com/universalhp/img/ei.webp" alt="Image Description 2">
+                <p class="gallery-caption">Explore Insights</p>
+            </div>
+        </div>
+
+        <div class="feature-section">
+            <div class="feature-content">
+                <img src="https://static.99acres.com/universalhp/img/d_hp_buy_xl.webp" alt="Feature Image">
+                <div class="feature-text">
+                    <h2>Find, Buy & Own Your Dream Home</h2>
+                    <p>Explore from Apartments, land, builder floors, villas and more</p>
+                    <button>Explore Buying</button>
+                </div>
+            </div>
+            <div class="feature-card">
+                <h1>CARD CONTENT</h1>
+            </div>
+        </div>
+
+        <div class="feature-section">
+            <div class="feature-content">
+                <img src="https://static.99acres.com/universalhp/img/d_hp_rent_xl.webp" alt="Feature Image">
+                <div class="feature-text">
+                    <h2>Rental Homes for Everyone</h2>
+                    <p>Explore from Apartments, builder floors, villas and more</p>
+                    <button>Explore Renting</button>
+                </div>
+            </div>
+            <div class="feature-card">
+                <h1>CARD CONTENT</h1>
+            </div>
+        </div>
+
+        <div class="feature-section">
+            <div class="feature-content">
+                <img src="https://static.99acres.com/universalhp/img/d_hp_pl_xl.webp" alt="Feature Image">
+                <div class="feature-text">
+                    <h2>Residential & Commercial Plots/Land</h2>
+                    <p>Explore Residential, Agricultural, Industrial and Commercial Plots/Land</p>
+                    <button>Explore Plots/Land</button>
+                </div>
+            </div>
+            <div class="feature-card">
+                <h1>CARD CONTENT</h1>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h4>99acres</h4>
+                <ul>
+                    <li>Mobile Apps</li>
+                    <li>Our Services</li>
+                    <li>Price Trends</li>
+                    <li>Post Your Property</li>
+                    <li>Real Estate Investments</li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Carrers with us</a></li>
+                    <li><a href="#">Terms & conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>Our Partners</h4>
+                <p>Naukri.com</p>
+                <p>Brijj.com</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Contact us</h4>
+                <p>Toll Free - 1800 41 99099</p>
+                <p>Email - feedback@99acres.com</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+
+        function selectTab(tabName) {
+            let tabs = document.querySelectorAll(".tab-item");
+            tabs.forEach(tab => {
+                if (tab.textContent.toLowerCase() === tabName) {
+                    tab.classList.add("active");
+                } else {
+                    tab.classList.remove("active");
+                }
+            });
+        }
+
+    </script>
+
+</body>
+
+</html>
